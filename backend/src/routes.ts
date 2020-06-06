@@ -1,9 +1,12 @@
 import express, { response } from 'express';
+import multer from 'multer';
+import multerConfig from './config/multer';
 
 import PointsController from './controllers/PointsController';
 import ItemsController from './controllers/ItemsController';
 
 const routes = express.Router();
+const upload = multer(multerConfig);
 
 /*
 Padrão para o nome de metodos dos controllers
@@ -19,7 +22,7 @@ delete - Deleta um recurso
 routes.get('/items', ItemsController.index);
 
 // Create points 
-routes.post('/points', PointsController.create);
+routes.post('/points', upload.single('image'), PointsController.create);
 // List points with filters
 routes.get('/points', PointsController.index);
 // List one point
