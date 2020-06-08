@@ -8,7 +8,7 @@ O objetivo da aplicação é conectar pontos de coleta de resíduos e pessoas qu
 
 A solução é composta por uma aplicação Web que permite o cadastro dos pontos de coleta e um aplicativo mobile que permite que os usuários encontrem pontos de coleta em sua respectiva cidade.
 
-### Tecnologías Utilizadas
+### Tecnologias Utilizadas
 
 #### Backend
  - NodeJS
@@ -18,6 +18,6 @@ A solução é composta por uma aplicação Web que permite o cadastro dos ponto
 
 #### Mobile
  - React Native 
- 
+
 ### Funcionalidades desenvolvidas na NLW
 
