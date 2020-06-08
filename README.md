@@ -8,11 +8,9 @@ O objetivo da aplicação é conectar pontos de coleta de resíduos e pessoas qu
 
 A solução é composta por uma aplicação Web que permite o cadastro dos pontos de coleta e um aplicativo mobile que permite que os usuários encontrem pontos de coleta em sua respectiva cidade.
 
-
-
 ### Tecnologias e principais bibliotecas utilizadas
 
-#### Backend
+#### Back-end
  - NodeJS + Express
  - Celebrate (Validação de dados)
  - Knex (Query builder para bancos relacionais)
