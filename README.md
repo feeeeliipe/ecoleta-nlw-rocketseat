@@ -1,7 +1,7 @@
-<html>
+### Ecoleta (NLW)
 
-    <h1>Ecoleta</h1>
+## Descrição da aplicação
 
-    <h2></h2>
+## Tecnologías Utilizadas
 
-</html>
+## Funcionalidades desenvolvidas na NLW
